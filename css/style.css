@@ -936,6 +936,12 @@
 
 
 @media screen and (max-width: 960px) {
+	.header {
+
+    height: 100%;
+
+	}
+}
 	.header-block {
 
     width: 95%;
@@ -1002,6 +1008,12 @@
 }
 
 @media screen and (max-width: 840px) {
+	.header {
+
+    height: 100%;
+
+	}
+}
 	.header-block {
 
     width: 90%;
@@ -1081,6 +1093,12 @@
 }
 
 @media screen and (max-width: 760px) {
+	.header {
+
+    height: 100%;
+
+	}
+}
 	.header-block {
 
     width: 90%;
@@ -1431,5 +1449,16 @@
 
 	.service img {
 		margin-bottom: 20px;
+	}
+
+	.header,.about-us,.services,.work,.reviews,.guarantee,.news,.feedback,.footer {
+		max-width: 400px;
+
+	}
+
+	.header {
+
+    height: 100%;
+
 	}
 }
