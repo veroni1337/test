@@ -4,12 +4,6 @@
 	box-sizing: border-box;
 }
 
-body {
-overflow-x: hidden;
-padding: 0;
-margin: 0;
-}
-
 .header {
 	position: relative;
 	width: 100%;
@@ -1005,7 +999,7 @@ margin: 0;
 	}
 
 	.footer-container {
-	    width: 100%;
+	    width: 900px;
 	}
 
 	.about-text {
@@ -1090,7 +1084,7 @@ margin: 0;
 	}
 
 	.footer-container {
-	    width: 100%;
+	    width: 830px;
 	}
 
 	.about-text {
@@ -1205,7 +1199,7 @@ margin: 0;
 	.review-image {
 	    width: 172px;
 	    height: 230px;
-	    
+	    margin: 20px 20px;
 	}
 
 	.guarantee-col-12 {
@@ -1232,7 +1226,6 @@ margin: 0;
 	.footer-container {
 		display: block;
     	text-align: center;
-    	width: 100%;
 	}
 
 	.header-menu-link {
@@ -1361,30 +1354,21 @@ margin: 0;
     	text-align: center;
 	}
 
-	.service-col-6 {
-		width:375px;
-    margin-right: 0;
-	}
-
 	.service-col-6-1 {
 
 	}
 
 	.service-col-6-3,.service-col-6-1 {
-		width: auto;
+		width: 400px;
 	}
 
 	.service-col-8 {
-		
-	}
-
-	.service-col-12 {
-		
+		width: 400px;
 	}
 
 	.service-col-2 {
     height: auto;
-    
+    width: 400px;
 	}
 
 	.service-col-6-3 {
@@ -1404,7 +1388,7 @@ margin: 0;
 	}
 
 	.work-img {
-    	width: 100%;
+    	
     height: auto;
 	}
 
@@ -1444,7 +1428,7 @@ margin: 0;
 	}
 
 	.form-input input[type="submit"] {
-    padding: 21px 0px 20px 120px;
+    padding: 21px 0px 20px 130px;
 
 	}
 
@@ -1462,7 +1446,6 @@ margin: 0;
 
 	.footer-container {
 		padding: 10px;
-		width: 100%;
 	}
 
 	.main-header {
