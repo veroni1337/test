@@ -1126,6 +1126,7 @@
 	    font-size: 20px;
 	    line-height: 24px;
 	    justify-content: center;
+
 	}
 
 	
@@ -1151,6 +1152,11 @@
 	    height: auto;
 
 	}
+
+	.service-col-6-2 {
+    flex-wrap: wrap;
+	}
+
 	.slider-item {
 	    width: 200px;
 	    display: flex;
@@ -1264,6 +1270,8 @@
     line-height: 20px;
     max-width: 250px;
     margin-left: 20px;
+        margin: 0 auto;
+        margin-bottom: 20px;
 	}
 
 	.header-title::after {
@@ -1278,7 +1286,7 @@
 
 	.header-about {
 		text-align: center;
-    margin-right: 100px; 
+    margin-right: 0px; 
 	}
 
 	.header-about-icon {
@@ -1305,10 +1313,17 @@
 
 	.about-us-img img{
 		width: 300px;
+
+	}
+
+	.about-us-img {
+		display: flex;
+    justify-content: center;
 	}
 
 	.about-us-main {
 		padding: 10px;
+		text-align: center;
 	}
 
 	.about-us-title {
@@ -1316,13 +1331,13 @@
 	}
 
 	.about-us-text {
-    width: 250px;
+   
 	}
-.services-title,.work-title,.review-title,.guarantee-title-1,.news-title,.feedback-title {
+/*.services-title,.work-title,.review-title,.guarantee-title-1,.news-title,.feedback-title {
 
     width: 260px;
-   	margin: 0 0 20px 10px;
-	}
+   	
+	}*/
 	/*
 	.services {
     padding: 10px;
@@ -1336,7 +1351,15 @@
 	*/
 
 	.service-text {
-    	width: 300px;
+    	text-align: center;
+	}
+
+	.service-col-6-1 {
+
+	}
+
+	.service-col-6-3,.service-col-6-1 {
+		width: 400px;
 	}
 
 	.service-col-8 {
@@ -1355,7 +1378,7 @@
 
 	.work-icon {
 
-    width: 250px;
+    
 
 	}
 
@@ -1365,12 +1388,12 @@
 	}
 
 	.work-img {
-    width: 250px;	
+    	
     height: auto;
 	}
 
 	.guarantee-col-12 {
-    justify-content: stretch;
+    justify-content: center;
 	}
 
 	.guarantee-col-6 {
@@ -1383,7 +1406,7 @@
 	}
 
 	.news-col-6 {
-		width: 250px;
+		
 		margin-left: 20px;
 		text-align: center;
 		margin-bottom: 20px;
@@ -1396,16 +1419,16 @@
 
 	.feedback-text {
 
-    width: 280px;
+    
 	}
 
 	.input,#submit {
-    width: 60%;
+    width: 90%;
     margin: 0 0 20px 30px;
 	}
 
 	.form-input input[type="submit"] {
-    padding: 21px 5px 20px 80px;
+    padding: 21px 0px 20px 130px;
 
 	}
 
